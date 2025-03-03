@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Center Align Elements</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1>Center Align Elements</h1>
+        <p>
+            To horizontally center a block element (like div), use margin: auto;
+        </p>
+
+        <div class="center">
+            <p>Hello World!</p>
+        </div>
+
+        <h2>Center Text</h2>
+
+        <div class="center1">
+            <p>This text is centered.</p>
+        </div>
+
+        <h3>Center an Image</h3>
+        <p>
+            To center an image, set left and right margin to auto, and make it into a block element.
+        </p>
+        <img src="./paris.jpg" alt="Paris" style="width:40%">
+
+        <h4>Right align with the position property</h4>
+        <p>An example of how to right align elements with the position property:</p>
+        <div class="right">
+            <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+        </div>
+
+        <h5>Right align with the float property</h5>
+
+        <p>An example of how to right align elements with the float property:</p>
+
+        <div class="extemly-right">
+            <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+        </div>
+
+        
+        <h6 style="font-size: 30px;">Without Clearfix</h6>
+        <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+        <div>
+            <img class="img1" src="./pineapple.jpg" alt="Pineapple" width="170" height="170">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+        </div>
+
+        <p style="clear:right">With New Modern Clearfix</p>
+        <p>Add the clearfix hack to the containing element, to fix this problem:</p>
+
+        <div class="clearfix">
+            <img class="img2" src="./pineapple.jpg" alt="Pineapple" width="170" height="170">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+        </div>
+
+
+        <p>Center vertically with padding</p>
+
+        <p>In this example, we use the padding property to center the div element vertically:</p>
+
+        <div class="center1">
+            <p>I am vertically centered.</p>
+        </div>
+
+
+        <p>Center with padding and text-align</p>
+
+        <p>In this example, we use padding and text-align to center the div element both vertically and horizontally:</p>
+
+        <div class="center2">
+            <p>I am vertically and horizontally centered.</p>
+        </div>
+
+
+        <h2>Flexbox Centering</h2>
+
+        <p>A container with both the justify-content and the align-items properties set to <em>center</em> will align the item(s) in the center (in both axis).</p>
+
+        <div class="center3">
+            <p>I am vertically and horizontally centered.</p>
+        </div>
+    </body>
+</html>
